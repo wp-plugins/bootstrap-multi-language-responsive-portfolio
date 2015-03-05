@@ -1,0 +1,30 @@
+h3 {border-bottom:3px solid #0875b8; color:#0875b8; text-transform:capitalize;}
+.form-field #ed_toolbar input{width: 4%}
+.portfolio_meta_control p {margin:0px; padding:0px 0px 10px;}
+.portfolio_meta_control .description { display: none; }
+.portfolio_meta_control label { display: block; font-weight: bold; margin: 15px 0px 5px;}
+.portfolio_meta_control label span { display: inline; font-weight: normal; font-size:12px; }
+.portfolio_meta_control p span { color: #999; display: block; font-size:11px; }
+	.portfolio_meta_control span strong {color:#0875b8; font-style:normal; font-weight:bold;} 
+.portfolio_meta_control textarea { margin-bottom: 3px; width: 500px; } 
+.portfolio_meta_control input[type='text'] { margin-bottom: 3px; width:100%; max-width: 400px; }
+.portfolio_meta_control h4 { color: #999; font-size: 1em; margin: 15px 6px; text-transform: capitalize; }
+.portfolio_meta_control .button {width:120px;}
+.hr {border-bottom:1px solid #F0F0F0; height:15px; margin-bottom:15px;}
+.portfolio_meta_control b {font-weight: bold; color:#5b5857 }
+
+.portfolio_meta_control .cover_image {}
+.portfolio_meta_control .cover_image img {height: 100px; border:1px solid #CCC; background-color:#CCC; padding:1px;}
+	
+.featured_note {color: #999; font-size:11px;}	
+select{text-transform: capitalize;}
+
+.btn-right {float:right;}
+.button-sm {font-size: 11px !important;line-height: 19px !important;height: 22px !important;padding: 0 5px 1px !important;}
+
+.button-success {background: #d9534f !important; border-color: #47a447 !important; -webkit-box-shadow: inset 0 1px 0 #FF6464,0 1px 0 rgba(0,0,0,.08) !important; box-shadow: inset 0 1px 0 #FF6464,0 1px 0 rgba(0,0,0,.08) !important; color: #fff !important; width:auto !important}
+.button-remove:hover, .button-remove:focus { background: #d2322d !important; border-color: #ac2925 !important; -webkit-box-shadow: inset 0 1px 0 #FF6464,0 1px 0 rgba(0,0,0,.08) !important; box-shadow: inset 0 1px 0 #FF6464,0 1px 0 rgba(0,0,0,.08) !important; color: #fff !important; }
+
+
+.button-remove { background: #d9534f !important; border-color: #d43f3a !important; -webkit-box-shadow: inset 0 1px 0 #FF6464,0 1px 0 rgba(0,0,0,.08) !important; box-shadow: inset 0 1px 0 #FF6464,0 1px 0 rgba(0,0,0,.08) !important; color: #fff !important; width:auto !important}
+.button-remove:hover, .button-remove:focus { background: #d2322d !important; border-color: #ac2925 !important; -webkit-box-shadow: inset 0 1px 0 #FF6464,0 1px 0 rgba(0,0,0,.08) !important; box-shadow: inset 0 1px 0 #FF6464,0 1px 0 rgba(0,0,0,.08) !important; color: #fff !important; }
