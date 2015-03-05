@@ -88,7 +88,6 @@ if ( ! class_exists( 'Portfolio_Post_Type' ) ) :
 		        
 		        wp_enqueue_script( 'jquery-bootstrap-js', WPT_PLUGIN_URL .'js/bootstrap.min.js', false, WPT_PLUGIN_VERSION, true );
 		        
-		        wp_enqueue_script( 'jquery-lightbox-min', WPT_PLUGIN_URL. 'js/lightbox.min.js', false, WPT_PLUGIN_VERSION, true );
 		        
 		        /* included javascript section end */
 		        
@@ -99,8 +98,6 @@ if ( ! class_exists( 'Portfolio_Post_Type' ) ) :
 		        wp_enqueue_style('jquery.font-awesome', WPT_PLUGIN_URL.'css/font-awesome.min.css', array(), WPT_PLUGIN_VERSION);
 		        
 		        wp_enqueue_style('jquery.portfolio', WPT_PLUGIN_URL.'css/portfolio.css', array(), WPT_PLUGIN_VERSION);
-		        
-		        wp_enqueue_style('jquery.lightbox', WPT_PLUGIN_URL.'css/lightbox.css', array(), WPT_PLUGIN_VERSION);  
 
                 /* css section end  */              	        
 		}
