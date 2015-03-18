@@ -269,6 +269,7 @@ figure.effect-apollo:hover h3 {
     white-space: nowrap;
     font-size: 0;
     opacity: 0;
+    background-color:rgba(0,0,0,0);
 }
 .pagination {
     margin: 0 0 40px;
