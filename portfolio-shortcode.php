@@ -28,7 +28,8 @@ function portfolioShortcode( $attr, $content = null )
          if( empty( $portfolio_title ) )
            $portfolio_title = 'Our recent works';
            
-	    $portfolio_content = get_option( 'portfolio_content' );
+        $portfolio_content = get_option( 'portfolio_content' );   
+	    $portfolio_content = stripslashes ( $portfolio_content );
 	    
         $html = '';
 		$html .='<section class="recent_project clearfix">';		

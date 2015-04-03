@@ -416,6 +416,7 @@ if ( ! class_exists( 'Portfolio_Post_Type' ) ) :
 					 	<?php
 					 	$check_portfolio_content = get_option('portfolio_content');
 					 	$portfolio_content = !empty($check_portfolio_content) ? $check_portfolio_content : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
+					 	$portfolio_content = stripslashes ($portfolio_content);
 					 	?>
 					 		<th><?php _e('Content :', 'wpt'); ?><br/>
 					 			<i><?php _e('(Specify the content to be displayed)','wpt'); ?></i>
